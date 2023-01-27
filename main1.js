@@ -13,6 +13,7 @@ $(document).ready(function() {
     $(".setup").hide();
     $(".timer").show();
     startWorkout();
+    $("#timerText").text("let's star");
     $('#img').attr('src','im1.jpg')
     new_audio.play();
   });
